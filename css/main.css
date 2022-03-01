@@ -51,13 +51,13 @@ body {
 }
 
 .items:hover {
-  background-color: orangered;
+  background-color: #f1761e;
   color: white;
   cursor: pointer;
 }
 
 .B1 {
-  background-color: orangered;
+  background-color: #f1761e;
   list-style-type: none;
   width: 120px;
   height: 50px;
@@ -72,5 +72,54 @@ body {
           align-items: center;
   color: white;
   font-size: 15px;
+}
+
+.orench {
+  color: rgba(255, 255, 255, 0.767);
+  width: 400px;
+  height: 350px;
+  background-color: #f1761e;
+  font-size: 20px;
+  position: relative;
+  top: 250px;
+  right: 220px;
+  text-align: left;
+  border: solid 10px #f1761e;
+}
+
+.boxmax {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bt {
+  width: 150px;
+  height: 50px;
+  background-color: #060650;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  -webkit-box-shadow: -10px 10px rgba(0, 0, 0, 0.479);
+          box-shadow: -10px 10px rgba(0, 0, 0, 0.479);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  position: relative;
+  left: 20px;
+}
+
+.bt:hover {
+  -webkit-box-shadow: 10px 10px rgba(0, 0, 0, 0.479);
+          box-shadow: 10px 10px rgba(0, 0, 0, 0.479);
 }
 /*# sourceMappingURL=main.css.map */

@@ -29,12 +29,12 @@ body{
     right: 100px;
 }
 .items:hover{
-    background-color: orangered;
+    background-color: #f1761e;
     color: white;
     cursor: pointer;
 }
 .B1{
-    background-color: orangered;
+    background-color: #f1761e;
     list-style-type: none;
     width: 120px;
     height: 50px;
@@ -43,4 +43,38 @@ body{
     align-items: center;
     color: white;
     font-size: 15px;
+}
+.orench{
+    color: rgba(255, 255, 255, 0.767);
+    width: 400px;
+    height: 350px;
+    background-color: #f1761e;
+    font-size: 20px;
+    position: relative;
+    top: 250px;
+    right: 220px;
+    text-align: left;
+    border: solid 10px #f1761e;
+    
+}
+.boxmax{
+    display: flex;
+    justify-content: center;
+}
+.bt{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(6, 6, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: -10px 10px rgba(0, 0, 0, 0.479) ;
+    transition: all 1s ease;
+    position: relative;
+    left: 20px;
+    
+}
+.bt:hover{
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.479) ;
 }
