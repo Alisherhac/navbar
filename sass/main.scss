@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 50px;
+    height: 70px;
 }
 .menu{
     display: flex;
@@ -60,6 +60,12 @@ body{
 .boxmax{
     display: flex;
     justify-content: center;
+    width: 100%;
+    height: 800px;
+    background-image: url("../img/aka.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: red solid 1px;
 }
 .bt{
     width: 150px;
@@ -77,4 +83,17 @@ body{
 }
 .bt:hover{
     box-shadow: 10px 10px rgba(0, 0, 0, 0.479) ;
+}
+.apps{
+    display: flex;
+    justify-content: space-between;
+}
+.r1{
+    background-color: #f1761e;
+    font-size: 30px;
+    width: 50px;
+    height: 40px;
+    color: white;
+     position: relative;
+     top: 50px;
 }

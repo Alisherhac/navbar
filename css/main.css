@@ -16,7 +16,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
-  height: 50px;
+  height: 70px;
 }
 
 .menu {
@@ -94,6 +94,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/aka.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: red solid 1px;
 }
 
 .bt {
@@ -121,5 +127,24 @@ body {
 .bt:hover {
   -webkit-box-shadow: 10px 10px rgba(0, 0, 0, 0.479);
           box-shadow: 10px 10px rgba(0, 0, 0, 0.479);
+}
+
+.apps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.r1 {
+  background-color: #f1761e;
+  font-size: 30px;
+  width: 50px;
+  height: 40px;
+  color: white;
+  position: relative;
+  top: 50px;
 }
 /*# sourceMappingURL=main.css.map */
