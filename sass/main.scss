@@ -6,6 +6,7 @@ body{
     padding: 0;
 }
 .navbar{
+    // box-shadow: 3px 3px 15px black;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -43,6 +44,8 @@ body{
     align-items: center;
     color: white;
     font-size: 15px;
+    position: relative;
+    left: 50px;
 }
 .orench{
     color: rgba(255, 255, 255, 0.767);
@@ -65,7 +68,8 @@ body{
     background-image: url("../img/aka.PNG");
     background-repeat: no-repeat;
     background-size: cover;
-    border: red solid 1px;
+    // border: red solid 1px;
+   
 }
 .bt{
     width: 150px;
@@ -79,12 +83,15 @@ body{
     transition: all 1s ease;
     position: relative;
     left: 20px;
+    color: white;
     
 }
 .bt:hover{
     box-shadow: 10px 10px rgba(0, 0, 0, 0.479) ;
 }
 .apps{
+    position: relative;
+    top: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -96,4 +103,47 @@ body{
     color: white;
      position: relative;
      top: 50px;
+}
+.ou{
+   font-weight: 5000;
+    color: rgb(36, 36, 36);
+    font-size: 50px;
+}
+.ourb{
+    font-size: 30px;
+}
+.ourtext{
+    width: 750px;
+    height: 600px;
+  
+}
+.ourm{
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+}
+.sarq{
+    position: relative;
+    left: 100px;
+}
+.btm{
+    width: 200px;
+    height: 70px;
+    background-color: rgb(6, 6, 80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: -10px 10px #f1761e ;
+    transition: all 1s ease;
+    position: relative;
+    left: 20px;
+    color: white;
+}
+.btm:hover{
+    box-shadow: -10px -10px #f1761e ;
+    cursor: pointer;
 }
